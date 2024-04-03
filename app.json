@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "react-navigation-new-arch",
-    "slug": "react-navigation-new-arch",
+    "name": "expo-router-new-arch",
+    "slug": "expo-router-new-arch",
     "icon": "./assets/icon.png",
+    "scheme": "myapp",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,6 +17,7 @@
       "package": "com.example.withnewarch"
     },
     "plugins": [
+      "expo-router",
       [
         "expo-build-properties",
         {
